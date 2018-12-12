@@ -1,0 +1,26 @@
+{
+  "name": "gelf-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "gelf-pro": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "log:emergency": "./bin/gelf-logger.js send -l emergency",
+    "log:alert": "./bin/gelf-logger.js send -l alert",
+    "log:critical": "./bin/gelf-logger.js send -l critical",
+    "log:error": "./bin/gelf-logger.js send -l error",
+    "log:warning": "./bin/gelf-logger.js send -l warning",
+    "log:notice": "./bin/gelf-logger.js send -l notice",
+    "log:info": "./bin/gelf-logger.js send -l info",
+    "log:debug": "./bin/gelf-logger.js send -l debug"
+  },
+  "bin": {
+    "gelf-cli": "./bin/gelf-logger.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

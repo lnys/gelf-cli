@@ -1,6 +1,6 @@
 {
   "name": "gelf-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "server.js",
   "dependencies": {
@@ -20,6 +20,20 @@
   },
   "bin": {
     "gelf-cli": "./bin/gelf-logger.js"
+  },
+  "homepage": "https://github.com/lnys/gelf-cli#readme",
+  "keywords": [
+    "graylog",
+    "gelf",
+    "logging",
+    "udp",
+    "tcp",
+    "tls",
+    "ssl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnys/gelf-cli.git"
   },
   "author": "",
   "license": "MIT"
